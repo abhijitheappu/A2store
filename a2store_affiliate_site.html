@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A²store | Fashion & Beauty</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #ff6a6a, #ffb347);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin: 15px 0 10px;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #ff6a6a;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .product a:hover {
+      background: #e55555;
+    }
+    .blog {
+      margin-top: 60px;
+    }
+    .blog h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .newsletter {
+      background: #ffe9e9;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .newsletter button {
+      padding: 10px 15px;
+      background: #ff6a6a;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>A²store</h1>
+    <p>Your Stylish Destination for Fashion & Beauty Finds</p>
+  </header>
+
+  <div class="section">
+    <h2 style="text-align:center; margin-bottom: 30px;">Featured Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200.png?text=Red+Lipstick" alt="Lipstick">
+        <h3>Red Velvet Lipstick</h3>
+        <p>Long-lasting, smudge-free finish.</p>
+        <a href="#">Buy Now</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200.png?text=Floral+Dress" alt="Dress">
+        <h3>Floral Summer Dress</h3>
+        <p>Comfortable and trendy design.</p>
+        <a href="#">Shop Now</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200.png?text=Skincare+Kit" alt="Skincare">
+        <h3>Essential Skincare Kit</h3>
+        <p>Glow up your skin routine.</p>
+        <a href="#">Check Price</a>
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2>Latest from the Blog</h2>
+      <p><strong>Top 5 Beauty Essentials Under ₹500</strong> - Discover our favorite affordable beauty picks for every skin type.</p>
+    </div>
+
+    <div class="newsletter">
+      <h2>Join Our Beauty Tribe</h2>
+      <p>Get updates on the latest fashion & beauty deals!</p>
+      <input type="email" placeholder="Your email" />
+      <button>Subscribe</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 A²store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
